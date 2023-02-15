@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "545255860702",
+    "project_id": "interview-puzzle-app",
+    "storage_bucket": "interview-puzzle-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545255860702:android:fd9a6002d5ad9a8457954f",
+        "android_client_info": {
+          "package_name": "com.example.interview_puzzle_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545255860702-a3570ls6mfq2p0t812rh5kn8k749kssf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.interview_puzzle_app",
+            "certificate_hash": "9ae92c49f44aeebe46f22d80912681d36949f0dc"
+          }
+        },
+        {
+          "client_id": "545255860702-ilu5h71q631hq82k0so66g7pdmuib3tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-pJqX2RJr6UHyWPLt4jlkpHeEMx7aYzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545255860702-ilu5h71q631hq82k0so66g7pdmuib3tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

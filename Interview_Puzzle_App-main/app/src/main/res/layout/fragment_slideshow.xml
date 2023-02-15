@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <Button
+        android:id="@+id/btnSmartContest2"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:text="Smart Contest"
+        android:textAllCaps="false"
+        android:background="@drawable/round_shape"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btnCustomContest"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:text="Custom Contest"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_shape"/>
+</LinearLayout>

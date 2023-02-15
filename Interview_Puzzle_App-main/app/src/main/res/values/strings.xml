@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Interview_Puzzle_App</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Name Surname</string>
+    <string name="nav_header_subtitle">Email ID</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_practiceMode">Practice Mode</string>
+    <string name="menu_contestMode">Contest Mode</string>
+    <string name="menu_history">History</string>
+    <string name="menu_help">Help</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="problemA1">Troubleshoot problem for solving contest</string>
+    <string name="problemA2">Troubleshoot account issues</string>
+    <string name="problemA3">Troubleshoot hint YouTube video errors, buffering and freezing.</string>
+    <string name="problemB1"> Use your Google account for Interview Puzzle App</string>
+    <string name="problemB2">Why sign in to Interview Puzzle App?</string>
+    <string name="problemC1">Policies</string>
+    <string name="problemC2">Privacy and safety centre</string>
+    <string name="problemC3">Copyrights</string>
+    <string name="fixProblem1"><br><b>Issues:</b>\n\t\t\t 1. custom contest do not showing the chosen contest.\n</br>
+        <br>\n\t\t\t 2. "Something went wrong. Try again."  at the time of submitting the contest.\n</br>
+        <br>\n <b>Solution:</b>\n\t\t\t Refresh the application by removing from cache and reopen it again.</br></string>
+    <string name="fixProblem2"><br><b>1. Get help signing in to Interview Puzzle App</b>\n</br>
+        <br>\n\t\t\t 1) Choose the Gmail account to sign in the app.\n</br>
+        <br>\n\t\t\t 2) Enter password of gmail account.\n</br>
+        <br>\n\t\t\t 3)Use the App.\n</br>
+        <br><b>2. Secure account</b>\n</br>
+        <br>\n\t\t\t 1) Create the strong password.\n</br>
+        <br>\n\t\t\t 2) Protect against suspicious messages and content by avoiding the susicious requests.\n</br></string>
+    <string name="fixProblem3"><br><b>Issues:</b>\n\t\t\t1. An error has occurred.</br>
+        <br>\n\t\t\t 2. Playback error. Tap to retry.\n</br>
+        <br>\n\t\t\t 3. Connection to server lost. \n</br>
+        <br>\n\t\t\t 4. This video is unavailable. \n</br>
+        <br>\n\t\t\t 5. Something went wrong. Tap to retry.\n</br>
+        <br>\n<b> Solution:</b>\n</br>
+        <br>\n\t\t\t By troubleshooting your internet or device connection,
+            your video may play without playback issues Start by checking your internet speed, them check the steps for your device.\n</br></string>
+
+    <string name="manageAccount1"><br>1. You sign in to Interview Puzzle App with your Google Account.\n</br>
+        <br>\t\tTo sign in to Interview Puzzle App, enter your Google Account email and password.</br>
+        <br>\n\t\tAfter signing up for App, signing in to your Google Account on anotherGoogle service will automatically sign you in to Interview Puzzle App.</br>
+        <br>\n\n\ 2. Deleting your Google Account will delete your Interview Puzzle App data,including all videos, comments and subscriptions.</br>
+        <br>\n\t\t Before deleting your Google Account, you will have to confirm that you understand you are permanently deleting your data on allGoogle services, including Interview Puzzle App.</br></string>
+    <string name="manageAccount2"><br>\t\t1. Provide more levels of contest\n</br>
+        <br>\n\t\t 2. Provide different types of questions from different companies.\n</br>
+        <br>\n\t\t 3. Provide the hint for attempted questions for another simple solutions.\n</br>
+        <br>\n\t\t 4. Provide the coins after solving the contest to see the hint.</br> </string>
+
+    <string name="policySafetyCopyright1"><br>\t\t1. The Collection, Processing and Use of Personal DataPersonal data are information about your personal or material circumstances,\n</br>
+        <br>\n\t\t e.g. name, birth date, email address, telephone number or postal address as well as your health.</br>
+        <br>\n\t\t Beiersdorf utilizes the personal data that you have made available as required for the creation, execution or termination of a contractual or similar obligation with you, specifically for authentication, registration and use of the Interview PuzzlesApp.</br>
+        <br>\n\t\t For the use of personal data for other purposes (specifically marketing purposes), Beiersdorf will always obtain your explicit consent before the collection of data.</br>
+        <br>\n\t\t 2. Access Authorization for Services on Your DeviceThe Interview Puzzles App solely accesses those services of your smartphone or tablet (device) that are required for using the Interview PuzzlesApp and necessary for the described purposes.</br>
+        <br>\n\t\t Before accessing the respective services the following access authorizations will be presented to you: Access to file system of your device for saving the data you produce.</br>
+        <br>\n\t\t 4. Changing Your Personal Setting At any time you can withdraw or re-grant the access authorizations that have been granted in your personal settings of your device (under “Privacy”).</br>
+        <br>\n\t\t 5. If you withdraw individual access authorizations of your Interview Puzzles App, this may lead to restricted function.</br></string>
+
+    <string name="policySafetyCopyright2"> <br><b>Protecting your identity: </b>\n</br>
+        <br>\n\t\t We want you to feel safe when you are on Interview Puzzle App, which is why we encourage you to let us know if videos or comments on the site violate your privacy or sense of safety.</br></string>
+</resources>

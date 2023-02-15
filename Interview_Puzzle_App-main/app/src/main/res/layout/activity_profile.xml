@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Profile.Profile">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/PfloatBedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#03A9F4"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_edit"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/PfloatBMoreOption"
+        app:layout_constraintEnd_toEndOf="@+id/PfloatBMoreOption"
+        android:focusable="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/PfloatBMoreOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#3F51B5"
+        android:clickable="true"
+        android:src="@drawable/ic_add_option"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:focusable="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/PfloatBavtar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#03A9F4"
+        android:clickable="true"
+        android:src="@drawable/ic_avtar"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/PfloatBedit"
+        app:layout_constraintEnd_toEndOf="@+id/PfloatBedit"
+        android:focusable="true" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/currentavtar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/avtar0"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="@id/promainImage1"
+        app:layout_constraintEnd_toStartOf="@id/promainImage2"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/prohorizontal1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+        app:strokeColor="#F4511E"
+        app:strokeWidth="1dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/promainImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.275" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/promainImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.725" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/prohorizontal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30"/>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentavtar"
+        app:layout_constraintVertical_bias="0.008">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <include layout="@layout/item_name"/>
+
+        <include layout="@layout/item_email"/>
+        <include layout="@layout/item_age"/>
+        <include layout="@layout/item_company"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/PTeditProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Edit Profile"
+        android:textColor="#036FF4"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/PfloatBedit"
+        app:layout_constraintEnd_toStartOf="@+id/PfloatBedit" />
+
+    <TextView
+        android:id="@+id/PTchangeAvtar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Change Avatar"
+        android:textColor="#036FF4"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/PfloatBavtar"
+        app:layout_constraintEnd_toStartOf="@+id/PfloatBavtar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
